@@ -80,10 +80,62 @@
     <section class="gallery section-pad" id="gallery">
       <div class="container">
         <div class="section-heading centered reveal"><p class="eyebrow">Proof in the polish</p><h2>See the Transformation</h2><p>Real results from real cleanings</p></div>
-        <div class="gallery-grid">
-          <article class="before-after reveal"><h3>Kitchen Deep Clean</h3><div class="pair"><figure><img src="https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&w=600&q=70" alt="Kitchen before cleaning placeholder"><figcaption>Before</figcaption></figure><figure><img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=600&q=70" alt="Kitchen after cleaning placeholder"><figcaption>After</figcaption></figure></div></article>
-          <article class="before-after reveal"><h3>Carpet Restoration</h3><div class="pair"><figure><img src="https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=600&q=70" alt="Living room carpet before placeholder"><figcaption>Before</figcaption></figure><figure><img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=600&q=70" alt="Living room carpet after placeholder"><figcaption>After</figcaption></figure></div></article>
-          <article class="before-after reveal"><h3>Office Refresh</h3><div class="pair"><figure><img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=600&q=70" alt="Office before cleaning placeholder"><figcaption>Before</figcaption></figure><figure><img src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=600&q=70" alt="Office after cleaning placeholder"><figcaption>After</figcaption></figure></div></article>
+        <div class="gallery-shell reveal" aria-label="Before and after cleaning slider gallery">
+          <button class="gallery-arrow prev" type="button" aria-label="Show previous transformation">←</button>
+          <div class="comparison-track">
+            <article class="comparison-slide is-active" aria-label="Kitchen deep clean before and after">
+              <div class="comparison-copy"><span class="mini-label">Slide 01</span><h3>Kitchen Deep Clean</h3><p>Slide the handle to reveal counters, backsplash, and stainless steel brought back to a bright reset.</p></div>
+              <div class="comparison" style="--position: 50%">
+                <img class="comparison-img after-img" src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=1200&q=80" alt="Clean bright kitchen after a deep cleaning service">
+                <img class="comparison-img before-img" src="https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&w=1200&q=80" alt="Messy kitchen before deep cleaning service">
+                <span class="image-label before-label">Before</span><span class="image-label after-label">After</span>
+                <input class="comparison-range" type="range" min="0" max="100" value="50" aria-label="Reveal kitchen before and after cleaning">
+                <span class="comparison-handle" aria-hidden="true"><span>↔</span></span>
+              </div>
+            </article>
+            <article class="comparison-slide" aria-label="Carpet restoration before and after">
+              <div class="comparison-copy"><span class="mini-label">Slide 02</span><h3>Carpet Restoration</h3><p>A heavy-traffic lounge gets a softer, cleaner finish with careful carpet care and detail vacuuming.</p></div>
+              <div class="comparison" style="--position: 50%">
+                <img class="comparison-img after-img" src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=80" alt="Clean living room carpet after restoration service">
+                <img class="comparison-img before-img" src="https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=1200&q=80" alt="Tired living room carpet before restoration service">
+                <span class="image-label before-label">Before</span><span class="image-label after-label">After</span>
+                <input class="comparison-range" type="range" min="0" max="100" value="50" aria-label="Reveal carpet before and after cleaning">
+                <span class="comparison-handle" aria-hidden="true"><span>↔</span></span>
+              </div>
+            </article>
+            <article class="comparison-slide" aria-label="Office reset before and after">
+              <div class="comparison-copy"><span class="mini-label">Slide 03</span><h3>Office Reset</h3><p>From end-of-week clutter to Monday-ready desks, glass, floors, and shared spaces.</p></div>
+              <div class="comparison" style="--position: 50%">
+                <img class="comparison-img after-img" src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1200&q=80" alt="Clean organized office after commercial cleaning">
+                <img class="comparison-img before-img" src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=80" alt="Busy office before commercial cleaning">
+                <span class="image-label before-label">Before</span><span class="image-label after-label">After</span>
+                <input class="comparison-range" type="range" min="0" max="100" value="50" aria-label="Reveal office before and after cleaning">
+                <span class="comparison-handle" aria-hidden="true"><span>↔</span></span>
+              </div>
+            </article>
+            <article class="comparison-slide" aria-label="Bathroom refresh before and after">
+              <div class="comparison-copy"><span class="mini-label">Slide 04</span><h3>Bathroom Refresh</h3><p>Tile, mirrors, fixtures, and vanities receive a polished, guest-ready finish.</p></div>
+              <div class="comparison" style="--position: 50%">
+                <img class="comparison-img after-img" src="https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&w=1200&q=80" alt="Clean modern bathroom after cleaning service">
+                <img class="comparison-img before-img" src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1200&q=80" alt="Bathroom before a detail cleaning service">
+                <span class="image-label before-label">Before</span><span class="image-label after-label">After</span>
+                <input class="comparison-range" type="range" min="0" max="100" value="50" aria-label="Reveal bathroom before and after cleaning">
+                <span class="comparison-handle" aria-hidden="true"><span>↔</span></span>
+              </div>
+            </article>
+            <article class="comparison-slide" aria-label="Move out clean before and after">
+              <div class="comparison-copy"><span class="mini-label">Slide 05</span><h3>Move-Out Clean</h3><p>Empty rooms get a final handoff clean so the next chapter starts without dust or residue.</p></div>
+              <div class="comparison" style="--position: 50%">
+                <img class="comparison-img after-img" src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80" alt="Clean empty room after move out cleaning">
+                <img class="comparison-img before-img" src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1200&q=80" alt="Room before move out cleaning">
+                <span class="image-label before-label">Before</span><span class="image-label after-label">After</span>
+                <input class="comparison-range" type="range" min="0" max="100" value="50" aria-label="Reveal move out clean before and after">
+                <span class="comparison-handle" aria-hidden="true"><span>↔</span></span>
+              </div>
+            </article>
+          </div>
+          <button class="gallery-arrow next" type="button" aria-label="Show next transformation">→</button>
+          <div class="gallery-dots" aria-label="Transformation slide navigation"></div>
         </div>
       </div>
     </section>
@@ -115,10 +167,12 @@
       <div class="container">
         <div class="section-heading reveal"><p class="eyebrow">Neighbors notice</p><h2>What Our Customers Say</h2></div>
         <div class="review-grid">
-          <article class="review-card reveal"><div class="stars">★★★★★</div><p>“They made our home feel calm again. The team was punctual, warm, and incredibly detailed.”</p><strong>Maya R.</strong><span>Atlanta, GA</span></article>
-          <article class="review-card reveal"><div class="stars">★★★★★</div><p>“Our office has never looked better. Reliable scheduling and clear communication every week.”</p><strong>Daniel K.</strong><span>Charlotte, NC</span></article>
-          <article class="review-card reveal"><div class="stars">★★★★★</div><p>“Booked a move-out clean and got our deposit back. Worth every dollar.”</p><strong>Sofia L.</strong><span>Austin, TX</span></article>
-          <article class="review-card reveal"><div class="stars">★★★★★</div><p>“Friendly cleaners, safe products, and a sparkling kitchen. We are now on a recurring plan.”</p><strong>Priya M.</strong><span>Denver, CO</span></article>
+          <article class="review-card reveal"><div class="stars">★★★★★</div><p>“Demo review: They made our home feel calm again. The team was punctual, warm, and incredibly detailed.”</p><strong>Maya R.</strong><span>Atlanta, GA</span></article>
+          <article class="review-card reveal"><div class="stars">★★★★★</div><p>“Demo review: Our office has never looked better. Reliable scheduling and clear communication every week.”</p><strong>Daniel K.</strong><span>Charlotte, NC</span></article>
+          <article class="review-card reveal"><div class="stars">★★★★★</div><p>“Demo review: Booked a move-out clean and got our deposit back. Worth every dollar.”</p><strong>Sofia L.</strong><span>Austin, TX</span></article>
+          <article class="review-card reveal"><div class="stars">★★★★★</div><p>“Demo review: Friendly cleaners, safe products, and a sparkling kitchen. We are now on a recurring plan.”</p><strong>Priya M.</strong><span>Denver, CO</span></article>
+          <article class="review-card reveal"><div class="stars">★★★★★</div><p>“Demo review: The before-and-after was unreal. Our rental looked brighter than the day we moved in.”</p><strong>Marcus T.</strong><span>Tampa, FL</span></article>
+          <article class="review-card reveal"><div class="stars">★★★★★</div><p>“Demo review: I booked for my parents and the crew treated their home with genuine care.”</p><strong>Elena V.</strong><span>Phoenix, AZ</span></article>
         </div>
       </div>
     </section>
