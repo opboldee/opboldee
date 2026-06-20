@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Cleaning US provides residential and commercial cleaning services with flexible scheduling, eco-friendly products, and transparent pricing." />
+  <title>Cleaning US | Spotless Homes, Stress-Free Living</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header" aria-label="Primary navigation">
+    <nav class="navbar container">
+      <a class="brand" href="#home" aria-label="Cleaning US home">
+        <span class="brand-mark">CU</span>
+        <span>Cleaning US</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-menu" id="nav-menu">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <a class="btn btn-accent nav-cta" href="#contact">Get a Free Quote</a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero section-pad">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Residential & commercial cleaning</p>
+          <h1>Spotless Homes, Stress-Free Living</h1>
+          <p class="hero-subhead">Reliable, affordable, professional cleaning services that give you back your time—and make every room feel cared for.</p>
+          <div class="hero-actions">
+            <a class="btn btn-accent" href="#contact">Get a Free Quote</a>
+            <a class="btn btn-secondary" href="#gallery">View Our Work</a>
+          </div>
+          <div class="trust-row" aria-label="Cleaning US trust highlights">
+            <span>500+ Happy Customers</span>
+            <span>Licensed & Insured</span>
+            <span>Satisfaction Guaranteed</span>
+          </div>
+        </div>
+        <div class="hero-visual reveal delay-1" aria-label="Cleaner working in a bright living room">
+          <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1200&q=80" alt="Professional cleaner wiping a bright, modern living space" />
+          <div class="floating-card">
+            <strong>Same-week openings</strong>
+            <span>Friendly teams. Fresh spaces.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services section-pad" id="services">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Care for every kind of space</p>
+          <h2>Our Cleaning Services</h2>
+        </div>
+        <div class="card-grid services-grid">
+          <article class="service-card reveal"><span class="icon">🏡</span><h3>Residential Cleaning</h3><p>Recurring home cleaning that keeps kitchens, bathrooms, bedrooms, and shared spaces guest-ready.</p><a href="#contact">Learn More</a></article>
+          <article class="service-card reveal"><span class="icon">✨</span><h3>Deep Cleaning</h3><p>Detailed top-to-bottom resets for built-up dust, grime, appliances, baseboards, and overlooked corners.</p><a href="#contact">Learn More</a></article>
+          <article class="service-card reveal"><span class="icon">📦</span><h3>Move-In/Move-Out Cleaning</h3><p>Make handoffs easier with a vacancy clean designed for landlords, sellers, buyers, and renters.</p><a href="#contact">Learn More</a></article>
+          <article class="service-card reveal"><span class="icon">🏢</span><h3>Office Cleaning</h3><p>Dependable commercial cleaning for desks, breakrooms, lobbies, restrooms, and high-touch surfaces.</p><a href="#contact">Learn More</a></article>
+          <article class="service-card reveal"><span class="icon">🧼</span><h3>Carpet Cleaning</h3><p>Refresh high-traffic areas with careful carpet care that lifts everyday dirt and softens the room.</p><a href="#contact">Learn More</a></article>
+          <article class="service-card reveal"><span class="icon">🪟</span><h3>Window Cleaning</h3><p>Brighten your property with streak-conscious interior window and sill cleaning for a clearer view.</p><a href="#contact">Learn More</a></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery section-pad" id="gallery">
+      <div class="container">
+        <div class="section-heading centered reveal"><p class="eyebrow">Proof in the polish</p><h2>See the Transformation</h2><p>Real results from real cleanings</p></div>
+        <div class="gallery-shell reveal" aria-label="Before and after cleaning slider gallery">
+          <button class="gallery-arrow prev" type="button" aria-label="Show previous transformation">←</button>
+          <div class="comparison-track">
+            <article class="comparison-slide is-active" aria-label="Kitchen deep clean before and after">
+              <div class="comparison-copy"><span class="mini-label">Slide 01</span><h3>Kitchen Deep Clean</h3><p>Slide the handle to reveal counters, backsplash, and stainless steel brought back to a bright reset.</p></div>
+              <div class="comparison" style="--position: 50%">
+                <img class="comparison-img after-img" src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=1200&q=80" alt="Clean bright kitchen after a deep cleaning service">
+                <img class="comparison-img before-img" src="https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&w=1200&q=80" alt="Messy kitchen before deep cleaning service">
+                <span class="image-label before-label">Before</span><span class="image-label after-label">After</span>
+                <input class="comparison-range" type="range" min="0" max="100" value="50" aria-label="Reveal kitchen before and after cleaning">
+                <span class="comparison-handle" aria-hidden="true"><span>↔</span></span>
+              </div>
+            </article>
+            <article class="comparison-slide" aria-label="Carpet restoration before and after">
+              <div class="comparison-copy"><span class="mini-label">Slide 02</span><h3>Carpet Restoration</h3><p>A heavy-traffic lounge gets a softer, cleaner finish with careful carpet care and detail vacuuming.</p></div>
+              <div class="comparison" style="--position: 50%">
+                <img class="comparison-img after-img" src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=80" alt="Clean living room carpet after restoration service">
+                <img class="comparison-img before-img" src="https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=1200&q=80" alt="Tired living room carpet before restoration service">
+                <span class="image-label before-label">Before</span><span class="image-label after-label">After</span>
+                <input class="comparison-range" type="range" min="0" max="100" value="50" aria-label="Reveal carpet before and after cleaning">
+                <span class="comparison-handle" aria-hidden="true"><span>↔</span></span>
+              </div>
+            </article>
+            <article class="comparison-slide" aria-label="Office reset before and after">
+              <div class="comparison-copy"><span class="mini-label">Slide 03</span><h3>Office Reset</h3><p>From end-of-week clutter to Monday-ready desks, glass, floors, and shared spaces.</p></div>
+              <div class="comparison" style="--position: 50%">
+                <img class="comparison-img after-img" src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1200&q=80" alt="Clean organized office after commercial cleaning">
+                <img class="comparison-img before-img" src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=80" alt="Busy office before commercial cleaning">
+                <span class="image-label before-label">Before</span><span class="image-label after-label">After</span>
+                <input class="comparison-range" type="range" min="0" max="100" value="50" aria-label="Reveal office before and after cleaning">
+                <span class="comparison-handle" aria-hidden="true"><span>↔</span></span>
+              </div>
+            </article>
+            <article class="comparison-slide" aria-label="Bathroom refresh before and after">
+              <div class="comparison-copy"><span class="mini-label">Slide 04</span><h3>Bathroom Refresh</h3><p>Tile, mirrors, fixtures, and vanities receive a polished, guest-ready finish.</p></div>
+              <div class="comparison" style="--position: 50%">
+                <img class="comparison-img after-img" src="https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&w=1200&q=80" alt="Clean modern bathroom after cleaning service">
+                <img class="comparison-img before-img" src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1200&q=80" alt="Bathroom before a detail cleaning service">
+                <span class="image-label before-label">Before</span><span class="image-label after-label">After</span>
+                <input class="comparison-range" type="range" min="0" max="100" value="50" aria-label="Reveal bathroom before and after cleaning">
+                <span class="comparison-handle" aria-hidden="true"><span>↔</span></span>
+              </div>
+            </article>
+            <article class="comparison-slide" aria-label="Move out clean before and after">
+              <div class="comparison-copy"><span class="mini-label">Slide 05</span><h3>Move-Out Clean</h3><p>Empty rooms get a final handoff clean so the next chapter starts without dust or residue.</p></div>
+              <div class="comparison" style="--position: 50%">
+                <img class="comparison-img after-img" src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80" alt="Clean empty room after move out cleaning">
+                <img class="comparison-img before-img" src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1200&q=80" alt="Room before move out cleaning">
+                <span class="image-label before-label">Before</span><span class="image-label after-label">After</span>
+                <input class="comparison-range" type="range" min="0" max="100" value="50" aria-label="Reveal move out clean before and after">
+                <span class="comparison-handle" aria-hidden="true"><span>↔</span></span>
+              </div>
+            </article>
+          </div>
+          <button class="gallery-arrow next" type="button" aria-label="Show next transformation">→</button>
+          <div class="gallery-dots" aria-label="Transformation slide navigation"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust section-pad">
+      <div class="container">
+        <div class="section-heading reveal"><p class="eyebrow">Trust built room by room</p><h2>Why Homeowners Trust Cleaning US</h2></div>
+        <div class="trust-grid">
+          <div class="trust-card reveal"><span>🛡️</span><h3>Background-Checked Staff</h3><p>Every team member is vetted, trained, and committed to respectful in-home service.</p></div>
+          <div class="trust-card reveal"><span>🌿</span><h3>Eco-Friendly Products</h3><p>We use people- and pet-conscious products whenever possible without compromising results.</p></div>
+          <div class="trust-card reveal"><span>💯</span><h3>100% Satisfaction Guarantee</h3><p>If something is not right, we return to make it right—simple as that.</p></div>
+          <div class="trust-card reveal"><span>📅</span><h3>Flexible Scheduling</h3><p>Weekly, biweekly, monthly, one-time, and commercial schedules shaped around your life.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pricing section-pad" id="pricing">
+      <div class="container">
+        <div class="section-heading centered reveal"><p class="eyebrow">No mystery fees</p><h2>Simple, Transparent Pricing</h2></div>
+        <div class="pricing-grid">
+          <article class="price-card reveal"><h3>Basic Clean</h3><p class="price">Starting at $99</p><ul><li>Kitchen and bathroom refresh</li><li>Dusting and vacuuming</li><li>Trash removal</li><li>Great for maintenance cleans</li></ul><a class="btn btn-secondary" href="#contact">Book Now</a></article>
+          <article class="price-card popular reveal"><span class="badge">Most Popular</span><h3>Deep Clean</h3><p class="price">Starting at $179</p><ul><li>Everything in Basic Clean</li><li>Baseboards and detail dusting</li><li>Appliance exteriors</li><li>High-touch sanitizing</li></ul><a class="btn btn-accent" href="#contact">Book Now</a></article>
+          <article class="price-card reveal"><h3>Premium/Recurring Clean</h3><p class="price">Starting at $139</p><ul><li>Weekly or biweekly service</li><li>Priority scheduling</li><li>Custom room checklist</li><li>Consistent cleaning team</li></ul><a class="btn btn-secondary" href="#contact">Book Now</a></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews section-pad" id="reviews">
+      <div class="container">
+        <div class="section-heading reveal"><p class="eyebrow">Neighbors notice</p><h2>What Our Customers Say</h2></div>
+        <div class="review-grid">
+          <article class="review-card reveal"><div class="stars">★★★★★</div><p>“Demo review: They made our home feel calm again. The team was punctual, warm, and incredibly detailed.”</p><strong>Maya R.</strong><span>Atlanta, GA</span></article>
+          <article class="review-card reveal"><div class="stars">★★★★★</div><p>“Demo review: Our office has never looked better. Reliable scheduling and clear communication every week.”</p><strong>Daniel K.</strong><span>Charlotte, NC</span></article>
+          <article class="review-card reveal"><div class="stars">★★★★★</div><p>“Demo review: Booked a move-out clean and got our deposit back. Worth every dollar.”</p><strong>Sofia L.</strong><span>Austin, TX</span></article>
+          <article class="review-card reveal"><div class="stars">★★★★★</div><p>“Demo review: Friendly cleaners, safe products, and a sparkling kitchen. We are now on a recurring plan.”</p><strong>Priya M.</strong><span>Denver, CO</span></article>
+          <article class="review-card reveal"><div class="stars">★★★★★</div><p>“Demo review: The before-and-after was unreal. Our rental looked brighter than the day we moved in.”</p><strong>Marcus T.</strong><span>Tampa, FL</span></article>
+          <article class="review-card reveal"><div class="stars">★★★★★</div><p>“Demo review: I booked for my parents and the crew treated their home with genuine care.”</p><strong>Elena V.</strong><span>Phoenix, AZ</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq section-pad" id="faq">
+      <div class="container narrow">
+        <div class="section-heading centered reveal"><p class="eyebrow">Good questions, clear answers</p><h2>Frequently Asked Questions</h2></div>
+        <div class="accordion reveal">
+          <details open><summary>How is pricing calculated?</summary><p>Pricing depends on property size, current condition, service type, and frequency. We provide a free quote before work begins.</p></details>
+          <details><summary>What is included in a standard cleaning?</summary><p>Standard cleans typically include kitchens, bathrooms, dusting, floors, trash removal, and high-touch surfaces.</p></details>
+          <details><summary>Do you bring supplies?</summary><p>Yes. Our teams arrive with professional supplies and equipment, and we can use your preferred products on request.</p></details>
+          <details><summary>How far ahead should I schedule?</summary><p>Most clients book 3–7 days ahead, but same-week openings are often available depending on your area.</p></details>
+          <details><summary>What is your cancellation policy?</summary><p>Please give at least 24 hours of notice so we can offer the appointment to another customer.</p></details>
+          <details><summary>What areas do you serve?</summary><p>Cleaning US serves residential and commercial clients across local metro neighborhoods and nearby suburbs.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-banner" id="contact">
+      <div class="container cta-grid">
+        <div class="reveal"><p class="eyebrow">Let the light back in</p><h2>Ready for a Spotless Space?</h2><p>Get your free, no-obligation quote today</p><a class="phone" href="tel:+18005550192">(800) 555-0192</a></div>
+        <form class="quote-form reveal" aria-label="Free quote form">
+          <label>Name<input type="text" name="name" placeholder="Your name"></label>
+          <label>Phone<input type="tel" name="phone" placeholder="(555) 000-0000"></label>
+          <label>Email<input type="email" name="email" placeholder="you@example.com"></label>
+          <label>Service Needed<select name="service"><option>Residential Cleaning</option><option>Deep Cleaning</option><option>Move-In/Move-Out Cleaning</option><option>Office Cleaning</option><option>Carpet Cleaning</option><option>Window Cleaning</option></select></label>
+          <label class="full">Message<textarea name="message" placeholder="Tell us about your space"></textarea></label>
+          <button class="btn btn-accent full" type="submit">Get a Free Quote</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div><a class="brand footer-brand" href="#home"><span class="brand-mark">CU</span><span>Cleaning US</span></a><p>Friendly, professional cleaning for homes and workplaces that deserve to breathe.</p></div>
+      <div><h3>Quick Links</h3><a href="#home">Home</a><a href="#services">Services</a><a href="#gallery">Gallery</a><a href="#pricing">Pricing</a><a href="#reviews">Reviews</a><a href="#faq">FAQ</a><a href="#contact">Contact</a></div>
+      <div><h3>Contact</h3><p>(800) 555-0192</p><p>hello@cleaningus.com</p><p>120 Fresh Start Ave, Suite 8<br>Charlotte, NC 28202</p></div>
+      <div><h3>Service Areas</h3><p>Charlotte • Atlanta • Austin • Denver • Nearby suburbs</p><div class="socials"><a href="#" aria-label="Facebook">f</a><a href="#" aria-label="Instagram">◎</a><a href="#" aria-label="LinkedIn">in</a></div></div>
+    </div>
+    <p class="copyright">© 2026 Cleaning US. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
