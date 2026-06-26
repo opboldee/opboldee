@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Azah offers personalized facial care checkups, curated kits, and gentle solutions for facial hair, oily skin, dryness, dullness, and early wrinkles." />
+    <title>Azah — Facial care that feels personal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT,WONK@9..144,500..800,80,1&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" aria-label="Azah primary navigation">
+      <a class="brand" href="#top" aria-label="Azah home">
+        <span class="brand-mark" aria-hidden="true">✦</span>
+        <span>Azah</span>
+      </a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#checkup">Checkup</a>
+        <a href="#kits">Kits</a>
+        <a href="#reviews">Reviews</a>
+      </nav>
+      <a class="nav-cta" href="#booking">Book session</a>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Facial care for the girl in the mirror</p>
+          <h1 id="hero-title">Feel prettier, softer, and understood before you buy a single thing.</h1>
+          <p class="hero-text">Azah pairs a short skin checkup with 1:1 guidance and facial-care kits for oily days, dry patches, dull tone, unwanted facial hair, and fine lines.</p>
+          <div class="hero-actions" aria-label="Primary actions">
+            <a class="button button-primary" href="#booking">Book your 1:1 skin checkup</a>
+            <a class="button button-secondary" href="#kits">Shop curated kits</a>
+          </div>
+          <dl class="trust-strip" aria-label="Azah early traction">
+            <div><dt>10 min</dt><dd>guided quiz</dd></div>
+            <div><dt>50+</dt><dd>review goal</dd></div>
+            <div><dt>2 taps</dt><dd>to book</dd></div>
+          </dl>
+        </div>
+        <div class="hero-media reveal" aria-label="A relatable facial care ritual">
+          <video class="ritual-video" autoplay muted playsinline loop poster="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?auto=format&fit=crop&w=900&q=80">
+            <source src="https://videos.pexels.com/video-files/3998261/3998261-uhd_1440_2732_25fps.mp4" type="video/mp4" />
+          </video>
+          <div class="video-fallback" role="img" aria-label="Young woman applying gentle facial care in soft botanical light"></div>
+          <div class="floating-note">Gentle razor guidance + skin kit matching</div>
+        </div>
+      </section>
+
+      <section class="story-panel reveal" aria-label="Azah brand promise">
+        <p>Not another shelf of confusing bottles. Azah starts with your face, your comfort, and your small daily worries—then makes the next step obvious.</p>
+      </section>
+
+      <section id="checkup" class="checkup-grid" aria-labelledby="checkup-title">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Personalized checkup</p>
+          <h2 id="checkup-title">A quick ritual that turns skin confusion into a plan.</h2>
+        </div>
+        <form id="booking" class="booking-card reveal" aria-label="Book a 1:1 skin checkup">
+          <h3>Book your 1:1 session</h3>
+          <label>
+            Your first name
+            <input name="name" type="text" autocomplete="given-name" placeholder="Riya" required />
+          </label>
+          <label>
+            Main concern
+            <select name="concern" required>
+              <option value="">Choose one</option>
+              <option>Oily skin and shine</option>
+              <option>Dryness and texture</option>
+              <option>Facial hair care</option>
+              <option>Dull skin tone</option>
+              <option>Fine lines or wrinkles</option>
+            </select>
+          </label>
+          <label>
+            Preferred slot
+            <input name="slot" type="datetime-local" required />
+          </label>
+          <button class="button button-primary" type="submit">Reserve my checkup</button>
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </form>
+        <div class="quiz-card reveal">
+          <h3>Your matched kit</h3>
+          <p class="kit-result">Answer the checkup and Azah recommends one focused kit—no overwhelm.</p>
+          <ul class="concern-list">
+            <li>Oil-control glow cloths</li>
+            <li>Facial razor starter guide</li>
+            <li>Barrier-care calming drops</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="kits" class="kits" aria-labelledby="kits-title">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Shop kits</p>
+          <h2 id="kits-title">Three calm answers for three loud skin worries.</h2>
+        </div>
+        <div class="kit-grid">
+          <article class="kit-card reveal">
+            <span>01</span><h3>Soft Razor Ritual</h3><p>For peach fuzz, first-time facial razor confidence, and a smoother makeup base.</p><button class="cart-button">Add $34 kit</button>
+          </article>
+          <article class="kit-card reveal">
+            <span>02</span><h3>Petal Matte Reset</h3><p>For oily T-zones, visible shine, and fresh morning-to-evening balance.</p><button class="cart-button">Add $42 kit</button>
+          </article>
+          <article class="kit-card reveal">
+            <span>03</span><h3>Dew & Lines Care</h3><p>For dry patches, dull tone, and early expression lines that need softness.</p><button class="cart-button">Add $48 kit</button>
+          </article>
+        </div>
+      </section>
+
+      <section id="reviews" class="proof" aria-labelledby="proof-title">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Real proof, gently shown</p>
+          <h2 id="proof-title">Reviews from women who wanted to feel sure first.</h2>
+        </div>
+        <div class="proof-grid">
+          <div class="before-after reveal" aria-label="Before and after comparison preview">
+            <div class="before">Before</div><div class="after">After</div><input type="range" min="20" max="80" value="52" aria-label="Move to compare before and after image" />
+          </div>
+          <div class="review-stack reveal">
+            <blockquote>“The checkup felt like texting an older sister who actually knows skincare.”<cite>— Meera, 19</cite></blockquote>
+            <blockquote>“I stopped guessing. My facial hair routine finally feels clean and safe.”<cite>— Anika, 24</cite></blockquote>
+          </div>
+        </div>
+      </section>
+
+      <section class="checkout reveal" aria-labelledby="checkout-title">
+        <p class="eyebrow">Mobile-first checkout</p>
+        <h2 id="checkout-title">A breezy checkout that keeps trust intact.</h2>
+        <div class="checkout-steps">
+          <span>Cart</span><span>Secure payment</span><span>Order confirmation</span>
+        </div>
+        <a class="button button-primary" href="#kits">Start with a kit</a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>Azah facial care</span>
+      <a href="#booking">Book checkup</a>
+      <a href="#reviews">Read reviews</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
