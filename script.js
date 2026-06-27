@@ -1,3 +1,9 @@
+document.querySelectorAll('.asset-image').forEach((image) => {
+  image.addEventListener('error', () => {
+    image.hidden = true;
+  }, { once: true });
+});
+
 const courseSelect = document.querySelector('#course-select');
 const paymentNote = document.querySelector('#payment-note');
 const statusLine = document.querySelector('#form-status');
