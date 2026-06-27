@@ -83,6 +83,14 @@ dt { font-size: .72rem; text-transform: uppercase; font-weight: 900; color: var(
 .chalk-card strong { display: block; font: 900 3rem/1 "Fraunces", serif; }
 
 section { padding: clamp(3rem, 7vw, 6rem) clamp(1rem, 5vw, 5rem); }
+.campaign-spotlight { display: grid; grid-template-columns: .78fr 1.22fr; gap: 2rem; align-items: center; background: linear-gradient(135deg, rgba(255,248,235,.86), rgba(255,218,164,.72)); }
+.campaign-copy p { line-height: 1.7; font-weight: 700; }
+.poster-frame, .faculty-board { margin: 0; padding: .7rem; border-radius: 26px; background: #3d1b11; box-shadow: var(--shadow); transform: rotate(-1.1deg); }
+.poster-frame img, .faculty-board img { display: block; width: 100%; aspect-ratio: 16 / 11.4; object-fit: cover; border-radius: 18px; background: linear-gradient(135deg, var(--cream), var(--brick)); }
+.poster-frame figcaption, .faculty-board figcaption { padding: .8rem .4rem .2rem; color: #fff8eb; font-weight: 900; }
+.faculty-board { margin-top: 2rem; transform: rotate(.7deg); background: linear-gradient(135deg, #201307, #a56b00); }
+.faculty-board img { aspect-ratio: 1514 / 837; object-position: center; }
+
 .section-panel { margin: clamp(1rem, 3vw, 3rem); border: 1px solid rgba(104,21,15,.16); border-radius: var(--radius); background: rgba(255,248,235,.72); box-shadow: var(--shadow); }
 .about-grid, .result-grid, .faculty-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-top: 2rem; }
 .about article, .result-card, .faculty-card { padding: 1.4rem; border-radius: 24px; background: #fff9ec; border: 1px solid rgba(104,21,15,.16); }
@@ -119,10 +127,11 @@ footer { justify-content: space-between; padding: 2rem clamp(1rem, 5vw, 5rem); b
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; scroll-behavior: auto !important; transition: none !important; } .reveal { opacity: 1; transform: none; } }
 @media (max-width: 860px) {
   .nav { display: none; }
-  .hero, .contact { grid-template-columns: 1fr; }
+  .hero, .contact, .campaign-spotlight { grid-template-columns: 1fr; }
   .hero { min-height: auto; }
   .trust-strip, .about-grid, .result-grid, .faculty-grid { grid-template-columns: 1fr; }
   h1 { max-width: 9ch; }
   .classroom-scene { min-height: 24rem; }
+  .poster-frame, .faculty-board { transform: none; }
   .hero-actions, .contact-actions, footer { align-items: stretch; flex-direction: column; }
 }
